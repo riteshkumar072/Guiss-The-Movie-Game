@@ -179,7 +179,6 @@ function App() {
 
   return (
     <div className='bg-[#000000] text-white h-screen flex justify-center items-center'>
-      {movies.length}
       {screen === "HOME" && (
         <Home startGame ={startGame}/>
       )}

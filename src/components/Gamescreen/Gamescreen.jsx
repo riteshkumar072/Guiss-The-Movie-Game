@@ -32,7 +32,6 @@ const Gamescreen = ({score, setScore, currentMovie, setScreen, currentRound}) =>
     return (
         <div className='flex flex-col justify-center items-center gap-5 border-1 rounded-2xl w-[500px] h-[500px] p-4 drop-shadow-[0_0_10px_purple] bg-black'>
             <h1>{timeleft}</h1>
-            <h1>{currentMovie.movie_name}</h1>
             <div className='flex w-[320px] justify-between'>
                 <div className='border-2 rounded-2xl border-purple-950 px-3'><span>ROUND</span><span className='text-purple-500 font-bold'> {currentRound +1}/10</span></div>
                 <div className='border-2 rounded-2xl border-purple-950 px-3'><span>SCORE </span><span className='text-yellow-300 font-semibold'>{score}</span></div>
