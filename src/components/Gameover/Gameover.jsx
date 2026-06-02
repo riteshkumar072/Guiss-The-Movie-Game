@@ -2,7 +2,7 @@ import React from 'react'
 
 const Gameover = ({startGame, goHome,  score}) => {
     return (
-        <div className='flex flex-col justify-center items-center gap-5 border-1 rounded-2xl border-purple-950/50 drop-shadow-[0_0_10px_purple] bg-black'>
+        <div className='flex flex-col justify-center items-center gap-5 border-1 rounded-2xl border-purple-950/50 drop-shadow-[0_0_10px_purple] bg-gradient-to-br from-black via-305% to-transparent to-250%'>
             <div className='text-white text-6xl font-bold py-10'>GAME OVER!</div>
             <div className='border border-white/10 p-5 w-85 text-center rounded-2xl'>
                 <p className='font-bold'>YOUR SCORE</p>
