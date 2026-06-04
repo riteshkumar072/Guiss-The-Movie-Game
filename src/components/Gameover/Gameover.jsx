@@ -9,7 +9,7 @@ const Gameover = ({startGame, goHome,  score}) => {
                 <p className='text-6xl font-bold text-yellow-300'>{score}</p>
             </div>
             <div className='p-10 flex gap-5 '>
-                <button className='bg-gradient-to-b from-yellow-300 to-orange-500 px-5 font-extrabold rounded-full w-40 py-1 drop-shadow-[0_0_10px_rgba(145,158,11,1)] hover:scale-105 hover:cursor-pointer acrive:scale-95 border-1 border-white' onClick={()=> startGame()}>PLAY AGAIN</button>
+                <button className='bg-gradient-to-br from-purple-800 via-transparent to-purple-800 text-purple-500  px-5 font-extrabold rounded-full w-40 py-1 hover:scale-105 hover:cursor-pointer acrive:scale-95 border border-purple-950' onClick={()=> startGame()}>PLAY AGAIN</button>
                 <button className='border-2 border-purple-950 w-40 py-1 rounded-full font-semibold text-white hover:scale-105 hover:cursor-pointer' onClick={()=>goHome()}>BACK TO HOME</button>
             </div>
         </div>
